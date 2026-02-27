@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MyProject\Fishing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\MyProject\WindowProgramming.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\MyProject\5장\bitmap_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bitmap5_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bitmapTest.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00015.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00016.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00017.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00018.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00019.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00020.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00021.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00022.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00023.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00024.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00025.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\bmp00026.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\butterfly.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\house.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask00.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\mask09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\Maskbutterfly1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run00.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\run09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\5장\풍선.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\bitmap_e.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-05-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-05-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-05-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-10-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-10-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\MyProject\연습문제 이미지 파일\Thumbs.db">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

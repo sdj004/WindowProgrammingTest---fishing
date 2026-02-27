@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ebcb93b8-62d1-4970-bf32-c50d458c1926}</ProjectGuid>
+    <RootNamespace>WindowProgramming</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>WindowProgramming</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MyProject\Fishing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\MyProject\WindowProgramming.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\MyProject\5장\bitmap5.bmp" />
+    <Image Include="..\MyProject\5장\bitmap5_5.bmp" />
+    <Image Include="..\MyProject\5장\bitmapTest.bmp" />
+    <Image Include="..\MyProject\5장\bitmap_f.bmp" />
+    <Image Include="..\MyProject\5장\bmp00001.bmp" />
+    <Image Include="..\MyProject\5장\bmp00002.bmp" />
+    <Image Include="..\MyProject\5장\bmp00003.bmp" />
+    <Image Include="..\MyProject\5장\bmp00004.bmp" />
+    <Image Include="..\MyProject\5장\bmp00005.bmp" />
+    <Image Include="..\MyProject\5장\bmp00006.bmp" />
+    <Image Include="..\MyProject\5장\bmp00007.bmp" />
+    <Image Include="..\MyProject\5장\bmp00008.bmp" />
+    <Image Include="..\MyProject\5장\bmp00009.bmp" />
+    <Image Include="..\MyProject\5장\bmp00010.bmp" />
+    <Image Include="..\MyProject\5장\bmp00011.bmp" />
+    <Image Include="..\MyProject\5장\bmp00012.bmp" />
+    <Image Include="..\MyProject\5장\bmp00013.bmp" />
+    <Image Include="..\MyProject\5장\bmp00014.bmp" />
+    <Image Include="..\MyProject\5장\bmp00015.bmp" />
+    <Image Include="..\MyProject\5장\bmp00016.bmp" />
+    <Image Include="..\MyProject\5장\bmp00017.bmp" />
+    <Image Include="..\MyProject\5장\bmp00018.bmp" />
+    <Image Include="..\MyProject\5장\bmp00019.bmp" />
+    <Image Include="..\MyProject\5장\bmp00020.bmp" />
+    <Image Include="..\MyProject\5장\bmp00021.bmp" />
+    <Image Include="..\MyProject\5장\bmp00022.bmp" />
+    <Image Include="..\MyProject\5장\bmp00023.bmp" />
+    <Image Include="..\MyProject\5장\bmp00024.bmp" />
+    <Image Include="..\MyProject\5장\bmp00025.bmp" />
+    <Image Include="..\MyProject\5장\bmp00026.bmp" />
+    <Image Include="..\MyProject\5장\butterfly.bmp" />
+    <Image Include="..\MyProject\5장\house.bmp" />
+    <Image Include="..\MyProject\5장\mask00.bmp" />
+    <Image Include="..\MyProject\5장\mask01.bmp" />
+    <Image Include="..\MyProject\5장\mask02.bmp" />
+    <Image Include="..\MyProject\5장\mask03.bmp" />
+    <Image Include="..\MyProject\5장\mask04.bmp" />
+    <Image Include="..\MyProject\5장\mask05.bmp" />
+    <Image Include="..\MyProject\5장\mask06.bmp" />
+    <Image Include="..\MyProject\5장\mask07.bmp" />
+    <Image Include="..\MyProject\5장\mask08.bmp" />
+    <Image Include="..\MyProject\5장\mask09.bmp" />
+    <Image Include="..\MyProject\5장\Maskbutterfly1.bmp" />
+    <Image Include="..\MyProject\5장\run00.bmp" />
+    <Image Include="..\MyProject\5장\run01.bmp" />
+    <Image Include="..\MyProject\5장\run02.bmp" />
+    <Image Include="..\MyProject\5장\run03.bmp" />
+    <Image Include="..\MyProject\5장\run04.bmp" />
+    <Image Include="..\MyProject\5장\run05.bmp" />
+    <Image Include="..\MyProject\5장\run06.bmp" />
+    <Image Include="..\MyProject\5장\run07.bmp" />
+    <Image Include="..\MyProject\5장\run08.bmp" />
+    <Image Include="..\MyProject\5장\run09.bmp" />
+    <Image Include="..\MyProject\5장\tree.bmp" />
+    <Image Include="..\MyProject\5장\풍선.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\bitmap1.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\bitmap_e.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\bmp00001.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-03.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-04.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-05-1.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-05-3.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-05-4.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-08.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-09.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-10-1.bmp" />
+    <Image Include="..\MyProject\연습문제 이미지 파일\연습5-10-2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\MyProject\연습문제 이미지 파일\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
